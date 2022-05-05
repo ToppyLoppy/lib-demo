@@ -1,6 +1,6 @@
 use rand::Rng;
-pub fn gen_ran() -> u8 {
+pub fn gen_ran() -> f32 {
     let mut rng = rand::thread_rng();
-    let n: u8 = rng.gen();
+    let n: f32 = rng.gen();
     n
 }
